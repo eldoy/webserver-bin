@@ -1,0 +1,24 @@
+{
+  "name": "webserver-bin",
+  "version": "0.1.0",
+  "description": "Web server binary",
+  "main": "webserver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pkg -c pkg.json webserver.js",
+    "clean": "rm -rf ./build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eldoy/webserver-bin.git"
+  },
+  "author": "Vidar Eldøy <vidar@eldoy.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eldoy/webserver-bin/issues"
+  },
+  "homepage": "https://github.com/eldoy/webserver-bin#readme",
+  "dependencies": {
+    "smor": "^0.1.0"
+  }
+}
