@@ -16,7 +16,7 @@ dist/
   app.js
 ```
 
-Double click the file for your system and navigate to `127.0.0.1:8080` in your browser to view your web site.
+Double click (or run from terminal) the file for your system and navigate to `127.0.0.1:8080` in your browser to view your web site.
 
 ### Install
 
@@ -29,6 +29,8 @@ npm i -g pkg
 # Build web server binaries
 npm run build
 ```
+
+The built binaries will appear in the `build` directory.
 
 ### Config
 
